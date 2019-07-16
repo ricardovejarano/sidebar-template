@@ -86,6 +86,14 @@ span {
     display: none;
 }
 
+#sidebar.active .iconNav{
+    display: none;
+}
+
+#sidebar.active .iconNav .svg-inline--fa.fa-w-16{
+    height: 2em !important;
+}
+
 #sidebar.active .sidebar-header strong {
     display: block;
 }
